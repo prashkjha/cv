@@ -1,0 +1,54 @@
+<DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Contact Details</title>
+</head>
+<body>
+    <h3>My Details</h3>
+    <ol>
+        <li><strong>Address</strong>
+            <ul>
+              <li>Street:Laxmisagar,Road No.5</li>
+              <li>City:Darbhanga</li>
+              <li>State:Bihar</li>
+              <li>Country:India</li> 
+            </ul>
+        </li>
+        <li><strong>Contact No.</strong>
+            <ul>
+                <li>Office:7771854483</li>
+                <li>Home:8871514229</li>
+            </ul>
+        </li>
+        <li><strong>Email</strong>
+            <ul>
+                <li>Office:prashkjha0809@gmail.com</li>
+                <li>Office2:prashant.jha02@infosys.com</li>
+                <li>Home:prashkjha@gmail.com</li>
+            </ul>
+        </li>
+    </ol>
+    <hr>
+    <form action="mailto:prashkjha@gmail.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="FirstName">FirstName</label></td>
+                <td><input type="text" name="FirstName"></td>
+            </tr>
+                
+            <tr>
+                <td><label for="LastName">LastName</label></td>
+                <td><input type="text" name="LastName" required></td>
+            </tr> 
+            <tr><td><label for="Email">Email</label></td>
+                <td> <input type="email" name="Email" required></td>
+            </tr>
+            <tr><td><label for="Message">Message</label></td>
+                <td><textarea name="Message"  cols="30" rows="10"></textarea></td>
+            </tr>
+        </table>
+         <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
